@@ -1,0 +1,79 @@
+/*Code created by Julia Marques Batista (200610604)
+June 17, 2024 at 7 PM
+Assignment 2 - Movie Poster*/
+
+body{
+    background-image: url(poster.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 1600px; /*use image orignal dimensions*/
+    width: 1260px;
+}
+
+.container{
+    width: max-content;
+    position: absolute;
+    margin-top: 1040px;
+    margin-left: 520px;
+}
+
+
+.first-para{
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    color: black;
+    font-weight: bold;
+    font-size: 50px; 
+    margin: 0;
+}
+
+.second-para{
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    color: navy;
+    font-weight: bold;
+    font-size: 30px; 
+    line-height: 1;
+    margin: 0;
+}
+
+
+.third-para{
+    font-family: "Young Serif", serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: bold;
+    color: #D90166; 
+    text-shadow: 3px 3px 1px black;
+    margin: 0;               
+}
+
+
+.fourth-para{
+    display: inline-flex;
+    padding-right: 10px;
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    color: navy;
+    font-weight: bold;
+    font-size: 17px; 
+}
+
+.fith-para{
+display: inline-flex;
+padding-left: 10px;
+font-family: "Gothic A1", sans-serif;
+font-style: normal;
+color: navy;
+font-weight: bold;
+font-size: 17px; 
+}
+
+ /* mouse over link */
+ a:hover {
+    color: white;
+  }
+
+.nav-link{
+    text-decoration: none;
+}
